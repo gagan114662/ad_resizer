@@ -257,12 +257,6 @@ def main():
 
         output_path = output_dir / f"{platform_id}_{width}x{height}.jpg"
 
-        # Check if file already exists
-        if output_path.exists():
-            print(f"  ⏭  Already exists: {output_path.name}")
-            successful += 1
-            continue
-
         # Use ClipDrop API
         success = resize_with_clipdrop_uncrop(burger_image, width, height, output_path)
 
