@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Output directories
+clipdrop_resized_ads/
+intelligent_resized_ads/
+penpot_resized_ads/
+resized_ads/
+resized_ads_firefly/
+outputs/
+uploads/
+
+# Credentials and API keys
+*.json
+credentials.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+
+# Temporary files
+temp_*
+*.tmp
